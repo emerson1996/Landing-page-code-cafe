@@ -128,3 +128,29 @@ height: 600px;
     width: 50%;
     height: 300px;
 }
+.contato {
+   background: url(../images/fundo-contato.jpg) center center no-repeat;
+   color: white;
+   height: 600px;
+   position: relative;
+}
+.contato h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contato address {
+
+    font-size: 25px;
+    font-weight: 500;
+    
+    
+}
+
+.contato .texto-contato {
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
