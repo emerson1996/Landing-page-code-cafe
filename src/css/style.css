@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600&display=swap');
+
+body{
+    max-width: 1440px;
+}
+
+.cabecalho{
+     padding: 30px 15px;
+     position: relative;
+     
+}
+
+.cabecalho a {
+     color: black;
+}
+
+
+.cabecalho .logo{
+
+    background: url(../images/logo.jpg) center center no-repeat;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: inline-block;
+   
+}
+.cabecalho .logo {
+    font-size: 0;
+
+}
+
+.cabecalho nav{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+   
+}
+
+.cabecalho ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.cabecalho ul li a:hover{
+    font-weight: bold;
+}
+
+.painel{
+    background: url(../images/painel.jpg) center center no-repeat ;
+    height:600px ;
+    
+}
+.painel h2{
+
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 5px 5px 5px rgb(26, 24, 23);
+    
+    
+}
+
+.secao-com-texto{
+    padding: 153px;
+    text-align: center;
+    clear: both;
+}
+
+.secao-com-texto img {
+    
+    height: 170px;
+    width: 170px;
+    margin-bottom: 70px;
+
+    
+}
+.secao-com-texto  h2{
+    text-align: center;
+    font-weight:600;
+    font-size: 45px;
+    margin-bottom: 37px;
+
+}
+.secao-com-texto p{
+
+    font-size: 18px;
+    font-weight: 300;
+    width: 702px;
+    margin: 0 auto;
+}
+
+.secao-com-texto.onde-estamos p{
+
+    font-size: 28px;
+    width: 480px;
+
+}
+.ladrilho div {
+    float: left;
+}
+.ladrilho .grande {
+background: url(../images/4.jpg) center center no-repeat;
+width:50%;
+height: 600px;
+
+}
+.ladrilho .pequeno{
+    background: url( ../images/3.jpg) center center no-repeat;
+    width:25%;
+    height: 300px;
+}
+
+
+.ladrilho .pequeno.grao {
+    background: url(../images/2.jpg) center center no-repeat;
+    width: 25%;
+    height: 300px;
+   
+}
+
+.ladrilho .medio{
+    background: url(../images/1.jpg)center center no-repeat;
+    width: 50%;
+    height: 300px;
+}
