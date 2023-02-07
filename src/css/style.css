@@ -2,6 +2,7 @@
 
 body{
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .cabecalho{
@@ -153,4 +154,58 @@ height: 600px;
     position: absolute;
     top: 30%;
     left: 50%;
+}
+
+.rodape{
+    background: url(../images/fundo-rodape.jpg) center center no-repeat;
+    padding: 35px 30px;
+    background-size: cover;
+}
+
+.rodape .logo {
+    border-radius: 50%;
+}
+
+.rodape ul li{
+
+    display: inline-block;
+    padding: 15px;
+
+
+}
+.rodape ul li a {
+    color: white;
+}
+
+.rodape ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.rodape .logo img {
+    border-radius: 50%;
+}
+
+.rodape ul li a:hover {
+    font-weight: bold;
+}
+.copyright {
+    color: white;
+}
+
+.rodape .redes-sociais .face, 
+.rodape .redes-sociais .insta {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    
+}
+
+.rodape .redes-sociais {
+    float: right;
+    clear: both;
+}
+
+.rodape .conteudo-de-baixo {
+    margin-top: 40px;
 }
